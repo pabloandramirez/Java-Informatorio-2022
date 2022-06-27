@@ -9,7 +9,8 @@ public class Ej3 {
         , "Wonder Woman", "brainiac");
 
         List<String> empiezanConB = superheroes.stream()
-            .filter(x -> x.startsWith("b")).collect(Collectors.toList());
+            .filter(x -> x.toLowerCase().startsWith("b"))
+            .collect(Collectors.toList());
 
         System.out.println(empiezanConB.size());
     }
