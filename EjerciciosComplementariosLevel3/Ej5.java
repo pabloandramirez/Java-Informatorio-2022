@@ -1,10 +1,6 @@
-import java.sql.Timestamp;
 import java.time.LocalDate;
 import java.time.Period;
-import java.time.format.DateTimeFormatter;
-import java.util.Calendar;
 import java.util.List;
-import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
 import java.util.Map;
@@ -42,6 +38,7 @@ public class Ej5 {
         }
         
     }
+
  public static void main(String[] args) {
 
         List<Alumno> listaAlumnos = List.of(
@@ -58,6 +55,4 @@ public class Ej5 {
         
         System.out.println(mapAlumnos);
     }
-        
-        
 }
